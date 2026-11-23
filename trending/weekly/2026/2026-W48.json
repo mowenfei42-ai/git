@@ -1,5 +1,5 @@
 {
-  "schema": 2,
+  "schema": 3,
   "date": "2026-11-23",
   "period": "weekly",
   "languages": [
@@ -11,22 +11,23 @@
   ],
   "count": 56,
   "degraded": false,
-  "contentHash": "sha256:c9459181bba5eb1fbafe7325d4415a45ab8890f6a975c6910f8ca19f4930965d",
+  "contentHash": "sha256:d24db5684b4d2f66cddf040ad8a77a47e589b08094b8841ca75d25540211cc6d",
   "contentHashAlgo": "jcs-sha256-v1",
-  "coreVersion": "0.11.0",
-  "generatedAt": "2026-11-23T11:41:42.4406838Z",
+  "coreVersion": "0.13.4",
+  "generatedAt": "2026-11-23T12:05:49.1679002Z",
   "repos": [
     {
       "fullName": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI \u0026 Anthropic compatible.",
       "language": "go",
-      "stars": 55561,
+      "stars": 55566,
       "starsInPeriod": 3700,
       "forks": 4615,
       "rank": 1,
       "source": "trending-html",
-      "summaryZh": "混合架构代码评审工具，用确定性流水线配合 LLM Agent 定位行级问题，内置 NPE、SQL 注入等规则。",
+      "summary": "面向大规模代码审查的混合工具，结合确定性流水线与 LLM 代理，提供行级评论和多语言安全规则集。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -34,12 +35,13 @@
       "url": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "typescript",
-      "stars": 14570,
+      "stars": 14575,
       "starsInPeriod": 2815,
-      "forks": 1438,
+      "forks": 1437,
       "rank": 2,
       "source": "trending-html",
-      "summaryZh": "面向与 AI Agent 协作的开发者，提供计划批注、代码评审与一键回传反馈的工作区。",
+      "summary": "面向 AI 代理协作的工作台，支持规划、批注、代码审查与团队共享，一键把反馈回传给代理。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -47,12 +49,13 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "python",
-      "stars": 73100,
+      "stars": 73112,
       "starsInPeriod": 4731,
       "forks": 6461,
       "rank": 3,
       "source": "trending-html",
-      "summaryZh": "让 AI 代理跨 Reddit、X、YouTube、HN 等平台调研话题并生成有据可依的摘要。",
+      "summary": "跨 Reddit、X、YouTube 等平台调研话题并生成有依据摘要的智能体技能。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -60,12 +63,13 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "rust",
-      "stars": 53525,
+      "stars": 53530,
       "starsInPeriod": 1964,
       "forks": 3747,
       "rank": 4,
       "source": "trending-html",
-      "summaryZh": "供 AI Agent 调用的浏览器自动化命令行工具，用于执行网页操作与交互任务。",
+      "summary": "供 AI 代理调用的浏览器自动化命令行工具，用 Rust 实现。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -78,7 +82,8 @@
       "forks": 4963,
       "rank": 5,
       "source": "trending-html",
-      "summaryZh": "用 Rust 实现的群体沟通平台，让团队成员在同一空间共享思路、协同交流。",
+      "summary": "一个群体智能式通信平台，用 Rust 构建。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -86,12 +91,13 @@
       "url": "https://github.com/getarcaneapp/arcane",
       "description": "Modern Docker Management, Designed for Everyone",
       "language": "go",
-      "stars": 10325,
+      "stars": 10326,
       "starsInPeriod": 1933,
-      "forks": 585,
+      "forks": 584,
       "rank": 6,
       "source": "trending-html",
-      "summaryZh": "现代化的 Docker 管理工具，帮助不同经验水平的用户简化容器运维。",
+      "summary": "面向广泛用户的现代化 Docker 管理工具，简化容器管理。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -99,12 +105,13 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "typescript",
-      "stars": 12095,
+      "stars": 12103,
       "starsInPeriod": 2683,
-      "forks": 1500,
+      "forks": 1501,
       "rank": 7,
       "source": "trending-html",
-      "summaryZh": "面向 Stitch MCP 服务器的 Agent Skills 技能库，兼容 Gemini CLI、Claude Code 等编码代理。",
+      "summary": "面向 Stitch MCP 服务器的技能库，遵循 Agent Skills 标准，可接入多种编码智能体。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -112,12 +119,13 @@
       "url": "https://github.com/tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "python",
-      "stars": 7876,
+      "stars": 7878,
       "starsInPeriod": 2616,
-      "forks": 1507,
+      "forks": 1509,
       "rank": 8,
       "source": "trending-html",
-      "summaryZh": "面向股票投资者与交易者的 Claude Code 技能集，覆盖行情分析、技术图表、经济日历、选股与策略开发。",
+      "summary": "面向股票投资者与交易员的 Claude Code 技能集，涵盖行情分析、技术图表、经济日历、选股与策略开发。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -125,12 +133,13 @@
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "typescript",
-      "stars": 10371,
+      "stars": 10379,
       "starsInPeriod": 3575,
-      "forks": 819,
+      "forks": 820,
       "rank": 9,
       "source": "trending-html",
-      "summaryZh": "为编码 Agent 提供最新 Web 最佳实践的内容源，助其产出符合现代标准的网页代码。",
+      "summary": "为编码代理提供最新 Web 最佳实践指引，帮助其生成符合现代标准的代码。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -138,12 +147,13 @@
       "url": "https://github.com/ModernRelay/omnigraph",
       "description": "Object-storage native graph database with branching and typed ontology",
       "language": "rust",
-      "stars": 3226,
+      "stars": 3227,
       "starsInPeriod": 675,
       "forks": 348,
       "rank": 10,
       "source": "trending-html",
-      "summaryZh": "基于对象存储的图数据库，支持分支与类型化本体，适合需要版本化图数据的场景。",
+      "summary": "原生构建于对象存储之上的图数据库，支持分支与带类型本体。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -156,7 +166,8 @@
       "forks": 906,
       "rank": 11,
       "source": "trending-html",
-      "summaryZh": "用 Go 编写的 Agent Substrate 核心系统，为智能体运行提供底层基础支撑。",
+      "summary": "Agent Substrate 项目的核心系统，面向智能体基础设施构建。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -164,12 +175,13 @@
       "url": "https://github.com/kajisho5/ffmpeg-skill",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "python",
-      "stars": 9992,
+      "stars": 10008,
       "starsInPeriod": 3748,
-      "forks": 878,
+      "forks": 879,
       "rank": 12,
       "source": "trending-html",
-      "summaryZh": "面向编码代理的本地视频编辑工具，提供42个FFmpeg工具与MCP服务，支持剪辑、字幕与多平台导出。",
+      "summary": "面向编码代理的本地视频编辑工具，提供42个FFmpeg工具与MCP服务，支持剪辑、字幕、重构图与平台导出，全程离线。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -177,12 +189,13 @@
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "typescript",
-      "stars": 58944,
+      "stars": 58947,
       "starsInPeriod": 2268,
       "forks": 4922,
       "rank": 13,
       "source": "trending-html",
-      "summaryZh": "把Chrome开发者工具的能力提供给编码代理，让AI直接检查页面、调试与排查性能问题。",
+      "summary": "以MCP服务器形式向编码代理开放Chrome开发者工具，便于在自动化开发流程中调试和分析网页。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -190,12 +203,13 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "python",
-      "stars": 73834,
+      "stars": 73840,
       "starsInPeriod": 1359,
-      "forks": 58136,
+      "forks": 58137,
       "rank": 14,
       "source": "trending-html",
-      "summaryZh": "LLM驱动的多市场股票分析系统，聚合行情与实时新闻，提供决策看板与自动推送，可零成本定时运行。",
+      "summary": "面向个人投资者的多市场股票分析系统，聚合行情与实时新闻，生成决策看板并自动推送，可零成本定时运行。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -203,12 +217,13 @@
       "url": "https://github.com/martin-olivier/airgorah",
       "description": "A WiFi security auditing software",
       "language": "rust",
-      "stars": 6925,
+      "stars": 6928,
       "starsInPeriod": 658,
       "forks": 1127,
       "rank": 15,
       "source": "trending-html",
-      "summaryZh": "基于Rust的WiFi安全审计软件，供安全人员在授权环境中检测无线网络的安全弱点。",
+      "summary": "用Rust编写的无线网络安全审计工具，供安全人员检测周边WiFi的加密与配置弱点。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -218,10 +233,11 @@
       "language": "go",
       "stars": 3299,
       "starsInPeriod": 141,
-      "forks": 387,
+      "forks": 388,
       "rank": 16,
       "source": "trending-html",
-      "summaryZh": "用一条命令把技能、代理、MCP与插件同步到各类AI命令行工具，简化团队内的配置共享。",
+      "summary": "用一条命令把技能、代理、MCP与插件同步到各类AI命令行工具，简化团队间的配置共享。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -229,12 +245,13 @@
       "url": "https://github.com/Tencent/LoopForge",
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "language": "go",
-      "stars": 5811,
+      "stars": 5813,
       "starsInPeriod": 4316,
       "forks": 814,
       "rank": 17,
       "source": "trending-html",
-      "summaryZh": "自托管的编码智能体交付工作流，可编排 CodeBuddy、Codex 与 Claude Code 并加入人工审批。",
+      "summary": "自托管的编码智能体交付工作流平台，用脚本和人工审批串联 CodeBuddy、Codex 与 Claude Code。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -242,12 +259,13 @@
       "url": "https://github.com/ag-ui-protocol/ag-ui",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "typescript",
-      "stars": 21296,
+      "stars": 21298,
       "starsInPeriod": 3620,
       "forks": 2165,
       "rank": 18,
       "source": "trending-html",
-      "summaryZh": "定义代理与用户界面的交互协议，帮助开发者把AI代理接入前端应用。",
+      "summary": "代理与用户交互协议，帮助开发者把AI代理接入前端应用并实时呈现其运行状态与结果。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -256,10 +274,11 @@
       "language": "python",
       "stars": 19549,
       "starsInPeriod": 232,
-      "forks": 2803,
+      "forks": 2802,
       "rank": 19,
       "source": "trending-html",
-      "summaryZh": "暂无描述信息的Python项目，具体用途与功能需查阅仓库文档。",
+      "summary": "Python编写的开源项目，仓库未提供描述，具体功能需查看源码与文档。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -272,7 +291,8 @@
       "forks": 510,
       "rank": 20,
       "source": "trending-html",
-      "summaryZh": "用Rust和egui编写的原生WhatsApp客户端，主打轻量与快速响应。",
+      "summary": "基于Rust与egui构建的原生WhatsApp桌面客户端，主打轻量启动与快速响应。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -280,12 +300,13 @@
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "python",
-      "stars": 199232,
+      "stars": 199238,
       "starsInPeriod": 3864,
-      "forks": 23321,
+      "forks": 23322,
       "rank": 21,
       "source": "trending-html",
-      "summaryZh": "面向 AI 智能体的技能集合仓库，为开发者提供可复用的技能定义与示例。",
+      "summary": "面向开发者的 Agent Skills 公共仓库，提供可复用的智能体技能定义与示例。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -293,12 +314,13 @@
       "url": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "typescript",
-      "stars": 32394,
+      "stars": 32399,
       "starsInPeriod": 3626,
       "forks": 2545,
       "rank": 22,
       "source": "trending-html",
-      "summaryZh": "可完全定制的开源设计系统，专为智能体参与开发的前端场景打造。",
+      "summary": "可完全定制的开源设计系统，组件与规范面向 AI 智能体协作场景。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -306,12 +328,13 @@
       "url": "https://github.com/opensandbox-group/OpenSandbox",
       "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
       "language": "go",
-      "stars": 17822,
+      "stars": 17824,
       "starsInPeriod": 487,
-      "forks": 1721,
+      "forks": 1720,
       "rank": 23,
       "source": "trending-html",
-      "summaryZh": "面向 AI 智能体的沙箱运行时，强调安全、快速与可扩展，用于隔离执行代理任务。",
+      "summary": "为 AI 智能体提供安全、快速且可扩展的沙箱运行环境。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -319,12 +342,13 @@
       "url": "https://github.com/rustfs/rustfs",
       "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
       "language": "rust",
-      "stars": 36399,
+      "stars": 36402,
       "starsInPeriod": 267,
       "forks": 1686,
       "rank": 24,
       "source": "trending-html",
-      "summaryZh": "用 Rust 编写的高性能 S3 兼容对象存储，支持与 MinIO、Ceph 等平台迁移共存。",
+      "summary": "Rust 编写的 S3 兼容高性能对象存储，支持与 MinIO、Ceph 等平台迁移共存。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -332,12 +356,13 @@
       "url": "https://github.com/JuliusBrussee/caveman",
       "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
       "language": "go",
-      "stars": 122284,
+      "stars": 122287,
       "starsInPeriod": 1881,
       "forks": 7138,
       "rank": 25,
       "source": "trending-html",
-      "summaryZh": "为编码智能体设计的技能与本地代理，通过精简回答和工具输出节省 token 且原文可还原。",
+      "summary": "为编码智能体压缩回答与工具输出的技能加本地代理，原始内容可随时还原。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -350,7 +375,8 @@
       "forks": 179,
       "rank": 26,
       "source": "trending-html",
-      "summaryZh": "用 Rust 编写的轻量原生 Discord 客户端，注重性能与低资源占用。",
+      "summary": "用 Rust 实现的轻量原生 Discord 客户端，主打小巧与运行性能。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -358,12 +384,13 @@
       "url": "https://github.com/dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "typescript",
-      "stars": 31376,
+      "stars": 31377,
       "starsInPeriod": 6436,
-      "forks": 2847,
+      "forks": 2849,
       "rank": 27,
       "source": "trending-html",
-      "summaryZh": "开源办公套件 SDK，将表格编辑、计算、协作与文件处理能力嵌入产品，支持人和智能体使用。",
+      "summary": "开源办公 SDK，可将表格编辑、计算、协作与文件处理嵌入产品，供人与智能体共用。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -371,12 +398,13 @@
       "url": "https://github.com/jingyaogong/minimind",
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "language": "python",
-      "stars": 69176,
+      "stars": 69188,
       "starsInPeriod": 3331,
       "forks": 9035,
       "rank": 28,
       "source": "trending-html",
-      "summaryZh": "用两小时从零训练 64M 参数小模型的教程项目，适合入门学习大模型训练全流程。",
+      "summary": "提供两小时从零训练 64M 参数语言模型的完整流程，降低上手门槛。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -384,12 +412,13 @@
       "url": "https://github.com/FujiwaraChoki/supoclip",
       "description": "An open-source OpusClip alternative",
       "language": "python",
-      "stars": 4098,
+      "stars": 4100,
       "starsInPeriod": 868,
       "forks": 978,
       "rank": 29,
       "source": "trending-html",
-      "summaryZh": "开源的 OpusClip 替代方案，面向需要自动剪辑长视频为短片的创作者。",
+      "summary": "对标 OpusClip 的开源视频剪辑工具，帮助创作者从长视频生成短片。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -397,12 +426,13 @@
       "url": "https://github.com/a2ui-project/a2ui",
       "description": "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.",
       "language": "typescript",
-      "stars": 18247,
+      "stars": 18250,
       "starsInPeriod": 640,
-      "forks": 1470,
+      "forks": 1471,
       "rank": 30,
       "source": "trending-html",
-      "summaryZh": "生成式 UI 框架：智能体输出布局数据，应用以 React、Flutter 等原生组件渲染。",
+      "summary": "生成式 UI 框架：智能体流式输出布局数据，React、Flutter、SwiftUI 等端用原生组件渲染。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -415,7 +445,8 @@
       "forks": 937,
       "rank": 31,
       "source": "trending-html",
-      "summaryZh": "面向云原生环境的 AI Agent 框架，帮助开发者在 Kubernetes 上构建和运行智能体。",
+      "summary": "面向 Kubernetes 的云原生 AI 智能体框架，帮助开发者在集群中构建、部署和运维智能体应用。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -423,12 +454,13 @@
       "url": "https://github.com/QwenLM/qwen-code",
       "description": "An open-source AI coding agent that lives in your terminal.",
       "language": "typescript",
-      "stars": 30886,
+      "stars": 30888,
       "starsInPeriod": 385,
       "forks": 3581,
       "rank": 32,
       "source": "trending-html",
-      "summaryZh": "运行在终端中的开源 AI 编程智能体，协助开发者完成日常编码与代码修改。",
+      "summary": "运行在终端中的开源 AI 编程智能体，面向希望通过命令行完成代码理解、生成与修改的开发者。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -441,7 +473,8 @@
       "forks": 4100,
       "rank": 33,
       "source": "trending-html",
-      "summaryZh": "Claude Code 组件注册表与命令行工具，集中管理代理、命令、技能、钩子与 MCP 配置。",
+      "summary": "Claude Code 组件模板注册表与命令行工具，集中提供智能体、命令、技能、钩子和 MCP 等配置。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -451,10 +484,11 @@
       "language": "go",
       "stars": 47986,
       "starsInPeriod": 60,
-      "forks": 5079,
+      "forks": 5078,
       "rank": 34,
       "source": "trending-html",
-      "summaryZh": "轻量易部署的自建 Git 服务，适合团队在自有服务器上托管和管理代码仓库。",
+      "summary": "用 Go 编写的轻量级自托管 Git 服务，适合想低成本搭建私有代码托管平台的小团队与个人。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -462,12 +496,13 @@
       "url": "https://github.com/ardia-browser/ardia",
       "description": "A free Chromium browser for the Mac: Arc's sidebar, Dia's polish. Chat on Discord: discord.gg/TdhuXrbcA6",
       "language": "typescript",
-      "stars": 2872,
+      "stars": 2873,
       "starsInPeriod": 519,
       "forks": 379,
       "rank": 35,
       "source": "trending-html",
-      "summaryZh": "面向 macOS 的免费 Chromium 浏览器，带有 Arc 式侧边栏与 Dia 风格的界面打磨。",
+      "summary": "面向 macOS 的免费 Chromium 浏览器，结合 Arc 式侧边栏与 Dia 风格交互，供追求简洁体验的用户使用。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -475,12 +510,13 @@
       "url": "https://github.com/cli/cli",
       "description": "GitHub’s official command line tool",
       "language": "go",
-      "stars": 47161,
+      "stars": 47162,
       "starsInPeriod": 158,
       "forks": 9441,
       "rank": 36,
       "source": "trending-html",
-      "summaryZh": "GitHub 官方命令行工具，在终端中管理仓库、议题、拉取请求与 Actions 工作流。",
+      "summary": "GitHub 官方命令行工具，让开发者在终端中管理仓库、议题、拉取请求与工作流。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -493,7 +529,8 @@
       "forks": 1115,
       "rank": 37,
       "source": "trending-html",
-      "summaryZh": "微软开源的 AI 红队测试工具包，用自动化扫描与多轮自适应攻击评估生成式 AI 风险。",
+      "summary": "微软开源的大模型红队测试工具包，支持自动化扫描、多轮对抗攻击与可视化界面，用于评估生成式 AI 安全风险。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -501,12 +538,13 @@
       "url": "https://github.com/pookjw/HermesEnabler",
       "description": "Enable Hermès Watch Faces on any Apple Watch devices",
       "language": "objective-c",
-      "stars": 2421,
+      "stars": 2423,
       "starsInPeriod": 461,
       "forks": 201,
       "rank": 38,
       "source": "trending-html",
-      "summaryZh": "在任意 Apple Watch 设备上启用爱马仕表盘的工具。",
+      "summary": "让任意 Apple Watch 启用爱马仕表盘的工具，面向希望解锁该表盘样式的苹果手表用户。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -519,7 +557,8 @@
       "forks": 1834,
       "rank": 39,
       "source": "trending-html",
-      "summaryZh": "可自托管的开源邮件服务器，集邮件营销与订阅通讯于一体，免除月度订阅费用。",
+      "summary": "可自托管的开源邮件服务器与营销平台，集成邮件列表和群发功能，帮企业免去按月订阅费用。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -529,10 +568,11 @@
       "language": "typescript",
       "stars": 14293,
       "starsInPeriod": 694,
-      "forks": 1133,
+      "forks": 1134,
       "rank": 40,
       "source": "trending-html",
-      "summaryZh": "OpenAI 的代码安全命令行工具与 TypeScript SDK，用于发现、验证并修复安全漏洞。",
+      "summary": "OpenAI 推出的代码安全命令行工具与 TypeScript SDK，用于发现、验证并修复软件漏洞。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -542,10 +582,11 @@
       "language": "python",
       "stars": 41194,
       "starsInPeriod": 465,
-      "forks": 3333,
+      "forks": 3332,
       "rank": 41,
       "source": "trending-html",
-      "summaryZh": "通过用户名在数千个网站检索公开账号信息，供调查与开源情报分析使用。",
+      "summary": "通过用户名在数千个网站收集公开账号线索并生成个人档案，供 OSINT 调查与信息核查使用。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -553,12 +594,13 @@
       "url": "https://github.com/we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "ruby",
-      "stars": 17441,
+      "stars": 17446,
       "starsInPeriod": 1771,
-      "forks": 1536,
+      "forks": 1537,
       "rank": 42,
       "source": "trending-html",
-      "summaryZh": "面向大众的个人财务管理应用，用于记录收支并统筹个人财务状况。",
+      "summary": "开源个人财务管理应用，帮助用户集中追踪账户、收支与资产状况。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -566,12 +608,13 @@
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "python",
-      "stars": 18779,
+      "stars": 18815,
       "starsInPeriod": 11269,
-      "forks": 2042,
+      "forks": 2045,
       "rank": 43,
       "source": "trending-html",
-      "summaryZh": "面向漏洞挖掘与外部红队工作的 Claude Code 技能包，内置漏洞模式与攻击矩阵。",
+      "summary": "面向漏洞挖掘与外部红队评估的 Claude Code 技能包，内置大量技能与已披露漏洞模式。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -581,10 +624,11 @@
       "language": "typescript",
       "stars": 7475,
       "starsInPeriod": 1082,
-      "forks": 1319,
+      "forks": 1320,
       "rank": 44,
       "source": "trending-html",
-      "summaryZh": "面向专业人士与团队的邮件系统，用 TypeScript 开发，便于集中管理团队邮箱。",
+      "summary": "面向专业人士与团队的电子邮件工具，使用 TypeScript 实现。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -594,10 +638,11 @@
       "language": "go",
       "stars": 11974,
       "starsInPeriod": 72,
-      "forks": 1122,
+      "forks": 1121,
       "rank": 45,
       "source": "trending-html",
-      "summaryZh": "面向 Kubernetes 用户与管理员的开放安全平台，覆盖 IDE、CI/CD 和集群的风险、合规与配置扫描。",
+      "summary": "开源 Kubernetes 安全平台，覆盖 IDE、CI/CD 与集群，提供风险分析、合规检查和配置错误扫描。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -605,12 +650,13 @@
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "language": "python",
-      "stars": 80109,
+      "stars": 80111,
       "starsInPeriod": 550,
-      "forks": 9835,
+      "forks": 9836,
       "rank": 46,
       "source": "trending-html",
-      "summaryZh": "汇总 Claude Skills 相关资源与工具，帮助用户定制和扩展 Claude 工作流。",
+      "summary": "精选 Claude Skills 资源与工具清单，帮助用户扩展和定制 Claude 的自动化工作流。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -618,12 +664,13 @@
       "url": "https://github.com/docker/compose",
       "description": "Define and run multi-container applications with Docker",
       "language": "go",
-      "stars": 39129,
+      "stars": 39130,
       "starsInPeriod": 752,
       "forks": 6053,
       "rank": 47,
       "source": "trending-html",
-      "summaryZh": "通过声明式配置定义并运行多容器 Docker 应用，简化本地开发与部署。",
+      "summary": "用配置文件定义并运行多容器 Docker 应用，简化本地开发与多服务编排。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -631,12 +678,13 @@
       "url": "https://github.com/milind-soni/OpenMausBot",
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "typescript",
-      "stars": 27033,
+      "stars": 27038,
       "starsInPeriod": 3728,
       "forks": 3857,
       "rank": 48,
       "source": "trending-html",
-      "summaryZh": "开源 Grok Bot 替代方案，为机器人提供可使用的虚拟机环境。",
+      "summary": "开源的 Grok Bot 替代方案，为机器人提供可操作的虚拟机环境以执行任务。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -649,7 +697,8 @@
       "forks": 3726,
       "rank": 49,
       "source": "trending-html",
-      "summaryZh": "面向产品团队的分析与可观测平台，集成会话回放、功能开关、实验和错误追踪。",
+      "summary": "开源产品分析平台，集成分析、会话回放、功能开关、实验与错误追踪，供产品团队自助洞察。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -662,7 +711,8 @@
       "forks": 962,
       "rank": 50,
       "source": "trending-html",
-      "summaryZh": "将 Stremio 插件、debrid 与 Usenet 源聚合为可筛选排序的列表，并支持多端播放。",
+      "summary": "将 Stremio 插件、debrid 与 Usenet 源聚合为可筛选排序的列表，并在 Stremio 或自带应用中播放。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -670,12 +720,13 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "go",
-      "stars": 39645,
+      "stars": 39647,
       "starsInPeriod": 259,
-      "forks": 923,
+      "forks": 922,
       "rank": 51,
       "source": "trending-html",
-      "summaryZh": "面向容器、Kubernetes、代码仓库与云环境的开源扫描器，用于发现漏洞、配置错误和密钥泄露并生成 SBOM。",
+      "summary": "面向容器、Kubernetes、代码仓库与云环境的开源扫描器，用于发现漏洞、配置错误和密钥并生成 SBOM。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -683,12 +734,13 @@
       "url": "https://github.com/lobehub/lobehub",
       "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
       "language": "typescript",
-      "stars": 86030,
+      "stars": 86031,
       "starsInPeriod": 498,
-      "forks": 16352,
+      "forks": 16350,
       "rank": 52,
       "source": "trending-html",
-      "summaryZh": "面向团队协作的 AI 智能体平台，可将能自主处理任务的助手接入团队日常使用的聊天工具。",
+      "summary": "把可自主处理工作的超级智能体接入团队现有聊天工具，供希望在协作中引入 AI 助手的团队使用。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -696,12 +748,13 @@
       "url": "https://github.com/zhouxiaoka/autoclip",
       "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping \u0026 content repurposing.",
       "language": "python",
-      "stars": 14044,
+      "stars": 14058,
       "starsInPeriod": 2808,
-      "forks": 2189,
+      "forks": 2191,
       "rank": 53,
       "source": "trending-html",
-      "summaryZh": "开源 AI 视频剪辑桌面工具，可将播客、访谈、课程等长视频自动切成适配抖音、小红书等平台的短视频。",
+      "summary": "开源 AI 视频剪辑工具，将播客、访谈等长视频自动剪成短视频并生成字幕、封面与文案。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -709,12 +762,13 @@
       "url": "https://github.com/CopilotKit/OpenBot",
       "description": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
       "language": "typescript",
-      "stars": 13259,
+      "stars": 13257,
       "starsInPeriod": 844,
       "forks": 1655,
       "rank": 54,
       "source": "trending-html",
-      "summaryZh": "可自托管的开源 AI 机器人方案，兼容任意智能体、模型与工具，便于替代闭源产品并深度定制。",
+      "summary": "可自托管、可定制的开源 AI 机器人，兼容各类智能体、模型与工具，适合不想依赖闭源方案的生产团队。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -727,7 +781,8 @@
       "forks": 2347,
       "rank": 55,
       "source": "trending-html",
-      "summaryZh": "为编码智能体描述视觉识别系统的格式规范，让代理持久且结构化地理解设计体系。",
+      "summary": "一种向编码智能体描述视觉识别体系的格式规范，让智能体持久、结构化地理解设计系统。",
+      "summaryLang": "zh",
       "summarySource": "model"
     },
     {
@@ -737,10 +792,11 @@
       "language": "typescript",
       "stars": 31367,
       "starsInPeriod": 203,
-      "forks": 1978,
+      "forks": 1979,
       "rank": 56,
       "source": "trending-html",
-      "summaryZh": "完全本地运行的命令行文档搜索引擎，可索引笔记与知识库，并跟进当前前沿检索方法。",
+      "summary": "本地运行的迷你命令行搜索引擎，用于检索文档、知识库和会议记录等，并跟进当前前沿检索方法。",
+      "summaryLang": "zh",
       "summarySource": "model"
     }
   ]
